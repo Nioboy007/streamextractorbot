@@ -24,7 +24,7 @@ async def start(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/kashirbots")
+                        "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/botio_devs")
                 ]
             ]
         ),
@@ -45,7 +45,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⭕️ SUPPORT ⭕️", url="https://t.me/mr_sahbe")
+                        "⭕️ SUPPORT ⭕️", url="https://t.me/APPUZ_001")
                 ]
             ]
         ),
@@ -64,10 +64,6 @@ async def about(client, message):
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data"),
                 ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/github.com/kashir-bots/streamextractorbot")
-                ]
             ]
         ),
         reply_to_message_id=message.id
