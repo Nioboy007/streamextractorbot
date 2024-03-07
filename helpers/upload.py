@@ -42,7 +42,7 @@ async def upload_audio(client, message, file_loc):
             chat_id=message.chat.id,
             audio=file_loc,
             thumb=thumb,
-            caption="**@kashirbots**",
+            caption="**@botio_devs**",
             title=title,
             performer=artist,
             duration=duration,
@@ -86,7 +86,7 @@ async def upload_subtitle(client, message, file_loc):
         )
     except Exception as e:
         print(e)     
-        await msg.edit_text("**Some Error Occurred. See Logs for More Info.**")   
+        await msg.edit_text("**Some Error Occurred. Kindly contact my Admin To address this issue.**")   
         return
 
     await msg.delete()
