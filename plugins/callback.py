@@ -56,7 +56,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("BACK", callback_data="help_data"),
                 InlineKeyboardButton("START", callback_data="start_data")],
-            )
+    ])
 
         await query.message.edit_text(
             Script.ABOUT_MSG,
